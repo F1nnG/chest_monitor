@@ -18,11 +18,11 @@ function printInventoryOnMonitor(chest, monitor)
     end
 end
 
--- while true do
+while true do
     local monitor = peripheral.find("monitor")
     local chest = peripheral.find("chest")
 
     printInventoryOnMonitor(chest, monitor)
 
-    -- sleep(10)
--- end
+    sleep(10)
+end
